@@ -4,6 +4,6 @@ resource "azuredevops_serviceendpoint_github" "serviceendpoint_github" {
 
   auth_personal {
     # Also can be set with AZDO_GITHUB_SERVICE_CONNECTION_PAT environment variable
-    personal_access_token = "xxxxxxxxxxxxxxxxxxxx"
+    personal_access_token = "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"
   }
 }
