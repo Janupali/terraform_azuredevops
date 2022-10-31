@@ -6,6 +6,6 @@ resource "azuredevops_git_repository" "imported_repo" {
   initialization {
     init_type = "Import"
     source_type = "Git"
-    source_url = " "
+    source_url = "https://github.com/Janupali/terraform_azuredevops"
   }
 }
